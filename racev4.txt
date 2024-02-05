@@ -4,7 +4,7 @@ local Window = OrionLib:MakeWindow({Name = "hub v4", HidePremium = false, SaveCo
 local Tab = Window:MakeTab({
 	Name = "V4Tab",
 	PremiumOnly = false
-}
+})
 
 local Section = V4Tab:AddSection({
 	Name = "setting"
